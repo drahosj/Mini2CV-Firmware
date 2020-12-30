@@ -1,0 +1,70 @@
+Configuration	Mini2CV
+STM32CubeMX 	6.0.0
+Date	12/23/2020
+MCU	STM32F303K8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+DAC1	OUT1 Configuration	DAC1_OUT1	PA4
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+USART2	Asynchronous	USART2_RX	PB4
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+8	PA2	USART2_TX	
+10	PA4	DAC1_OUT1	
+18	PA8	GPIO_Output	GATE
+19	PA9	USART1_TX	
+20	PA10	USART1_RX	
+27	PB4	USART2_RX	MIDI_RX
+28	PB5	GPIO_Output	LED1
+PERIPHERALS	MODES	FUNCTIONS	PINS
+DAC1	OUT1 Configuration	DAC1_OUT1	PA4
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+USART2	Asynchronous	USART2_RX	PB4
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+8	PA2	USART2_TX	
+10	PA4	DAC1_OUT1	
+18	PA8	GPIO_Output	GATE
+19	PA9	USART1_TX	
+20	PA10	USART1_RX	
+27	PB4	USART2_RX	MIDI_RX
+28	PB5	GPIO_Output	LED1
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : Mini2CV
+Project Folder : /home/jake/STM32Projects/Mini2CV
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F3 V1.11.2
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
